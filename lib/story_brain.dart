@@ -60,27 +60,27 @@ class StoryBrain {
     //TODO: Step 21 - Using the story plan, update nextStory() to change the storyNumber depending on the choice made by the user. e.g. if choiceNumber was equal to 1 and the storyNumber is 0, the storyNumber should become 2.
     // Story 0 -> Choice 1  [LEFT] => Story 2
     if (_storyNumber == 0 && choiceNumber == 1) {
-      _storyNumber == 2;
+      _storyNumber = 2;
     }
     // Story 0 -> Choice 2  [RIGHT] => Story 1
     else if (_storyNumber == 0 && choiceNumber == 2) {
-      _storyNumber == 1;
+      _storyNumber = 1;
     }
     // Story 1 -> Choice 1  [LEFT] => Story 2
     else if (_storyNumber == 1 && choiceNumber == 1) {
-      _storyNumber == 2;
+      _storyNumber = 2;
     }
     // Story 1 -> Choice 2  [RIGHT] => Story 3
     else if (_storyNumber == 1 && choiceNumber == 2) {
-      _storyNumber == 3;
+      _storyNumber = 3;
     }
     // Story 2 -> Choice 1 [LEFT]  => Story 5
     else if (_storyNumber == 2 && choiceNumber == 1) {
-      _storyNumber == 5;
+      _storyNumber = 5;
     }
     // Story 2 -> Choice 2 [RIGHT] => Story 4
     else if (_storyNumber == 2 && choiceNumber == 2) {
-      _storyNumber == 4;
+      _storyNumber = 4;
     }
     //TODO: Step 22 - In nextStory() if the storyNumber is equal to 3 or 4 or 5, that means it's the end of the game and it should call a method called restart() that resets the storyNumber to 0.
     else if (_storyNumber == 3 || _storyNumber == 4 || _storyNumber == 5) {
