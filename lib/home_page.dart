@@ -20,8 +20,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-//TODO: Step 9 - Create a new storyBrain object from the StoryBrain class.
-StoryBrain storyBrain = StoryBrain();
+/*StoryBrain storyBrain = StoryBrain();*/
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -33,6 +32,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  //TODO: Step 9 - Create a new storyBrain object from the StoryBrain class.
+  final StoryBrain storyBrain = StoryBrain();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
