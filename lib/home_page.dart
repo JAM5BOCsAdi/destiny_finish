@@ -1,6 +1,8 @@
 import 'package:destiny/story_brain.dart';
 import 'package:flutter/material.dart';
+
 //TODO: Step 15 - Run the app and see if you can see the screen update with the first story. Delete this TODO if it looks as you expected.
+// Step 15 - It Looks like as expected
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
